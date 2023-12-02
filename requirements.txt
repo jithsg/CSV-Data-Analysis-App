@@ -5,3 +5,5 @@ tiktoken
 python-dotenv
 pinecone-client
 utils
+langchain_experimental
+tabulate

@@ -1,6 +1,6 @@
 import streamlit as st
 from dotenv import load_dotenv
-# from utils import query_agent
+from utilss import query_agent
 
 load_dotenv()
 
@@ -15,4 +15,5 @@ query = st.text_area("Enter your query")
 button = st.button("Generate Response")
 
 if button:
-    st.write("Response: ")
+    answer = query_agent(data, query)
+    st.write("Response:", answer)
