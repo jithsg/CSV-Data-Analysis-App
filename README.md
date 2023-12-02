@@ -1,7 +1,7 @@
 # CSV Data Analysis App
 
 ## Overview
-This repository contains a Streamlit application designed to perform data analysis on CSV files. Users can upload their CSV file and input a query related to the data. The application processes this query and provides relevant responses, making it a handy tool for quick and interactive data analysis.
+This repository contains a Streamlit application designed to perform data analysis on CSV files using OpenAI API. Users can upload their CSV file and input a query related to the data. The application processes this query and provides relevant responses, making it a handy tool for quick and interactive data analysis.
 
 ## Features
 - **CSV File Upload**: Users can upload their own CSV files for analysis.
